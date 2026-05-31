@@ -1,0 +1,10 @@
+# Wrangler config — tells Cloudflare what to publish and where.
+# "name" matches your existing Worker so moddesign.io keeps working
+# without you having to reconnect the domain.
+name = "shy-flower-16ee"
+account_id = "496d9b5c6f8e86fb7037ec08b4e18d5f"
+compatibility_date = "2026-05-31"
+
+# Everything inside the "public" folder is served as the website.
+[assets]
+directory = "./public"

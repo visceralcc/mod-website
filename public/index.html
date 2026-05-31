@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mod</title>
+  <meta name="description" content="Mod" />
+  <style>
+    :root {
+      color-scheme: light;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      /* Center the logo both ways, and keep it centered as the window resizes */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      min-height: 100dvh; /* handles mobile browser toolbars */
+      background: #ffffff;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .logo {
+      /* Show the PNG at its true, native size (100% of the file) */
+      width: auto;
+      height: auto;
+      /* Safety net: if a phone screen is narrower than the logo, shrink to fit */
+      max-width: 100%;
+      display: block;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+  <img class="logo" src="assets/mod.png" alt="Mod" />
+</body>
+</html>

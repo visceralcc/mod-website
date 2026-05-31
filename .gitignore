@@ -1,0 +1,5 @@
+# Things that shouldn't be saved to version control
+node_modules/
+.wrangler/
+.DS_Store
+*.log
